@@ -4,6 +4,8 @@ package com.wufuqiang.myexception
 object TryCatchDemo {
   def main(args: Array[String]): Unit = {
     test1
+//    test2
+    test4
   }
 
   def test1: Unit ={
@@ -21,4 +23,16 @@ object TryCatchDemo {
     }
   }
 
+  def test2: Unit ={
+    val res = test3
+  }
+
+  def test3: Unit ={
+    throw new Exception("抛出异常。")
+  }
+
+  @throws(classOf[NumberFormatException])
+  def test4(): Unit ={
+    "abc".toInt
+  }
 }
