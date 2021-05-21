@@ -6,7 +6,11 @@
 
     <groupId>com.wufuqiang</groupId>
     <artifactId>scala-base</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>scala-test</module>
+    </modules>
 
 
 </project>
