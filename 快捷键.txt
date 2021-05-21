@@ -1,0 +1,2 @@
+shift+tab   整体向左移
+ctrl+alt+L 格式化代码
