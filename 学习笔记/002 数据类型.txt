@@ -1,9 +1,0 @@
-
-
-1、scala与java有着相同的数据类型，在scala中数据类型都是对象，没有java中的原生类型；
-2、scala数据类型分为两大类AnyVal(值类型)和AnyRef(引用类型)，但不管是AnyVal，还是AnyRef都是对象；
-
-
-
-
-
