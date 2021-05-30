@@ -12,4 +12,7 @@ class Cat {
   var age:Int = 0
   var color:String = _
 
+  override def toString:String={
+    s"name=$name,age=$age,color=$color"
+  }
 }
