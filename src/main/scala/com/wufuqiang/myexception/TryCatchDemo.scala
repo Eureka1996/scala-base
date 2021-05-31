@@ -6,6 +6,7 @@ object TryCatchDemo {
     test1
 //    test2
     test4
+    println("运行结束")
   }
 
   def test1: Unit ={
@@ -34,5 +35,6 @@ object TryCatchDemo {
   @throws(classOf[NumberFormatException])
   def test4(): Unit ={
     "abc".toInt
+//    "123".toInt
   }
 }
