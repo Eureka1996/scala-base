@@ -54,7 +54,14 @@ object MapDemo {
     for(item <- map4) println(s"key=${item._1}")
     for(key <- map4.keys) println(key)
     for(value <- map4.values) println(value)
+    println("-"*20)
     for((k,v) <- map4) println(s"key=$k,value=$v")
+    println("-"*20)
+    for((k,3) <- map4) println(s"key=$k,value=3")
+
+    println("-"*20)
+    for((k,v) <- map4 if v > 10) println(s"key=$k,value=$v")
+
 
   }
 
